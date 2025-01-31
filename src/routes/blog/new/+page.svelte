@@ -4,7 +4,7 @@
   </script>
   
   <div class="max-w-2xl mx-auto py-8">
-    <h1 class="text-3xl font-bold mb-8">Create New Blog Post</h1>
+    <h1 class="text-3xl font-bold mb-8">Create Newer Blog Post</h1>
   
     <form
       method="POST"
@@ -12,8 +12,9 @@
       class="space-y-4"
     >
       <div>
-        <label class="block text-sm font-medium text-gray-700">Title</label>
+        <label for="title" class="block text-sm font-medium text-gray-700">Title</label>
         <input
+          id="title"
           type="text"
           name="title"
           required
